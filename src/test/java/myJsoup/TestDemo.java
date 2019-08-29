@@ -64,7 +64,7 @@ public class TestDemo {
 		 /**
          * 根据实际运行效果 设置缓冲区大小
          */
-        byte[] buffer = new byte[1024];
+        byte[] buffer = new byte[2048];
         int ch = 0;
         while ((ch = content.read(buffer)) != -1) {
             fileout.write(buffer, 0, ch);
